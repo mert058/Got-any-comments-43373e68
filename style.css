@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+}
+body {
+  background-color: grey;
+}
+input {
+	border-radius: 30px;
+}
+
+label {
+    display: inline-block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.block {
+	display: block;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+
+
+textarea:focus {border:solid green;
+}
+textarea {border: solid red;
+}
